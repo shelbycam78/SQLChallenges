@@ -12,5 +12,7 @@ namespace SQL_Challenges.Challenge4
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime JoinedOn { get; set; }
+        public List<MessageThread> MessageThreadId { get; set; }
+
     }
 }

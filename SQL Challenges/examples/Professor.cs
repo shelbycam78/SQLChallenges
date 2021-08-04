@@ -12,6 +12,6 @@ namespace SQL_Challenges.examples
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public bool IsTenured { get; set; }
-        public List<Course> Courses { get; set; }
+        public List<Course> CourseId { get; set; }
     }
 }

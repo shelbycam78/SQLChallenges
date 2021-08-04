@@ -51,7 +51,7 @@
     <Compile Include="Challenge4\MessageThread.cs" />
     <Compile Include="Challenge4\User.cs" />
     <Compile Include="Challenge4\UserMessageThread.cs" />
-    <Compile Include="ChallengeBonus\Advisor.cs" />
+    <Compile Include="ChallengeBonus\AdvisorId.cs" />
     <Compile Include="ChallengeBonus\Course.cs" />
     <Compile Include="ChallengeBonus\Professor.cs" />
     <Compile Include="ChallengeBonus\ProfessorCourse.cs" />

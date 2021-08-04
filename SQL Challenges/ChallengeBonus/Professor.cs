@@ -12,5 +12,7 @@ namespace SQL_Challenges.ChallengeBonus
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public bool IsTenured { get; set; }
+        public List<Course> CourseId { get; set; }
+
     }
 }

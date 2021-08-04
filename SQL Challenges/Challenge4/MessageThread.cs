@@ -11,5 +11,7 @@ namespace SQL_Challenges.Challenge4
         public int MessageThreadId { get; set; }
         public DateTime CreatedOn { get; set; }
         public DateTime ModifiedOn { get; set; }
+        public List<User> UserId { get; set; }
+
     }
 }

@@ -11,5 +11,7 @@ namespace SQL_Challenges.ChallengeBonus
         public int CourseId { get; set; }
         public string Name { get; set; }
         public string CourseCode { get; set; }
+        public List<Professor> ProfessorId { get; set; }
+
     }
 }
