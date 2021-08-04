@@ -8,7 +8,7 @@ namespace SQL_Challenges.Challenge4
 {
     public class UserMessageThread
     {
-        public int UserId { get; set; }
-        public int MessageThreadId { get; set; }
+        public List<User> UserId { get; set; }
+        public List<MessageThread> MessageThreadId { get; set; }
     }
 }
