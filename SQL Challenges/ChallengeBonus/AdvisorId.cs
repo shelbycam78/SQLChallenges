@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace SQL_Challenges.ChallengeBonus
 {
-    public class Advisor
+    public class AdvisorId
     {
-        public int AdvisorId { get; set; }
+        public List<Professor> ProfessorId { get; set; }
      }
 }
