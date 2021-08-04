@@ -43,11 +43,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Challenge1\Flight.cs" />
+    <Compile Include="Challenge2\Technician.cs" />
+    <Compile Include="Challenge2\Vehicle.cs" />
+    <Compile Include="Challenge3\House.cs" />
+    <Compile Include="Challenge3\Listing.cs" />
+    <Compile Include="Challenge4\MessageThread.cs" />
+    <Compile Include="Challenge4\User.cs" />
+    <Compile Include="Challenge4\UserMessageThread.cs" />
+    <Compile Include="ChallengeBonus\Advisor.cs" />
+    <Compile Include="ChallengeBonus\Course.cs" />
+    <Compile Include="ChallengeBonus\Professor.cs" />
+    <Compile Include="ChallengeBonus\ProfessorCourse.cs" />
+    <Compile Include="ChallengeBonus\Student.cs" />
+    <Compile Include="ChallengeBonus\StudentCourse.cs" />
+    <Compile Include="examples\Course.cs" />
+    <Compile Include="examples\Customer.cs" />
+    <Compile Include="examples\Order.cs" />
+    <Compile Include="examples\Professor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

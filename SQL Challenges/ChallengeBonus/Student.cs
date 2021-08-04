@@ -11,6 +11,6 @@ namespace SQL_Challenges.ChallengeBonus
         public int StudentId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public List<Advisor> AdvisorId { get; set; }
+        public List<AdvisorId> AdvisorId { get; set; }
     }
 }
